@@ -1,5 +1,4 @@
 #!/bin/bash
 
-xhost +SI:localuser:$(whoami)
+xhost +SI:localuser:root
 xhost +local:docker
-
