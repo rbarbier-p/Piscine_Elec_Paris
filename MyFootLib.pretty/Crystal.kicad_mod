@@ -95,14 +95,14 @@
 		(uuid "c9ff0bdb-2599-4996-950f-79487a9d75d1")
 	)
 	(fp_rect
-		(start -1.9 -1.6)
-		(end 1.9 1.6)
+		(start -2.2 -1.8)
+		(end 2.2 1.9)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "1eddad45-9064-41a1-89e4-15f855a6e509")
 	)
 	(fp_rect
@@ -157,4 +157,15 @@
 		(uuid "e1e84153-651e-468a-8360-1f21f9f8c91d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

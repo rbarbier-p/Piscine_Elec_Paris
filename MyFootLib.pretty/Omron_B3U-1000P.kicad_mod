@@ -75,6 +75,17 @@
 		(uuid "63ab46ce-96b0-41bb-8f6c-597231916fef")
 	)
 	(fp_rect
+		(start -2.3 -1.6)
+		(end 2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7046b05a-7b60-47a9-886d-922da6ffcc3e")
+	)
+	(fp_rect
 		(start -2 -1.25)
 		(end 2 1.25)
 		(stroke
@@ -112,4 +123,15 @@
 		(uuid "b25bacac-34b9-420f-808a-fa2c1afcde9d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

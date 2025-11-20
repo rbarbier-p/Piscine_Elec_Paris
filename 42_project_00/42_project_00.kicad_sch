@@ -5,6 +5,261 @@
 	(uuid "977b9c8e-5e7f-463d-98c7-b6b9f8ae9310")
 	(paper "A4")
 	(lib_symbols
+		(symbol "GND_1"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "GND"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0) (xy 0 -1.27) (xy 1.016 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_2"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "GND"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0) (xy 0 -1.27) (xy 1.016 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "New_Library:#PWR"
+			(power)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "#PWR_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 2.54) (xy 2.54 0) (xy 1.27 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "#PWR_1_1"
+				(pin power_out line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:4PIN_Crystal"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -250,7 +505,7 @@
 				)
 			)
 			(symbol "ATmega328p_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -11.43 16.51 0)
 					(length 1.27)
 					(name "AREF"
@@ -1127,22 +1382,24 @@
 			(embedded_fonts no)
 		)
 		(symbol "New_Library:GND"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(power)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
 			(property "Reference" "GND"
 				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 0.762 0.762)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "GND"
+				(at 0 -2.286 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 				)
 			)
@@ -1970,22 +2227,24 @@
 			(embedded_fonts no)
 		)
 		(symbol "New_Library:VCC"
+			(power)
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(in_bom no)
+			(on_board no)
 			(property "Reference" "VCC"
 				(at 0 2.286 0)
 				(effects
 					(font
 						(size 0.762 0.762)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "VCC"
+				(at 0 2.286 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 				)
 			)
@@ -2052,32 +2311,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "VCC_1"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "VCC"
+				(at 0 2.286 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 					(hide yes)
 				)
 			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+			(property "Value" "VCC"
+				(at 0 2.286 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 				)
 			)
@@ -2090,7 +2342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2099,7 +2351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2108,39 +2360,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
+			(symbol "VCC_1_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy -0.762 0) (xy 0 0.762) (xy 0 0) (xy 0 0.762) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -2148,6 +2371,196 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1_1"
+				(pin power_in line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VCC_2"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "VCC"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0 0.762) (xy 0 0) (xy 0 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_2_1_1"
+				(pin power_in line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VCC_3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "VCC"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0 0.762) (xy 0 0) (xy 0 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_3_1_1"
+				(pin power_in line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2227,58 +2640,16 @@
 		(uuid "5e7fed28-582a-4bb6-b908-f7a3cdd45b56")
 	)
 	(junction
-		(at 43.18 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0928aa7b-c7fc-400a-be63-d5d848825f72")
-	)
-	(junction
 		(at 73.66 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1675205b-506d-4a52-ad02-f1d7298ebfdd")
 	)
 	(junction
-		(at 83.82 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dc23ca8-6853-4027-ac32-d87ebe71911a")
-	)
-	(junction
 		(at 81.28 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e5414f6-875d-4a69-92f4-383e6d727482")
-	)
-	(junction
-		(at 27.94 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b3c7414-434e-43c9-8aa4-e452f8463739")
-	)
-	(junction
-		(at 35.56 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d1665ba-a7c5-49b5-b22a-a44729f37e86")
-	)
-	(junction
-		(at 69.85 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41a26b33-de75-4780-b562-345022a9b12c")
-	)
-	(junction
-		(at 52.07 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45f552fe-b1e1-49e7-9d31-8d19ee88d2a4")
-	)
-	(junction
-		(at 31.75 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "671dc588-0450-43eb-9701-4fdafa2f406e")
 	)
 	(junction
 		(at 53.34 72.39)
@@ -2305,46 +2676,16 @@
 		(uuid "735b0fe3-4efe-4c2b-b0bc-de992bd73783")
 	)
 	(junction
-		(at 44.45 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7808395e-5b3f-4a3e-b945-0763d2273262")
-	)
-	(junction
 		(at 35.56 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "964df62d-86ea-4fbb-bba5-af6eb5c53951")
 	)
 	(junction
-		(at 91.44 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a72e0bd0-2ec4-4b0e-9eef-8cc351f462d9")
-	)
-	(junction
-		(at 113.03 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad0bc029-621a-4d83-b6d6-659badedbfbb")
-	)
-	(junction
-		(at 35.56 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c981a1df-fe75-494e-a6d5-06ac94969f77")
-	)
-	(junction
 		(at 44.45 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd18808b-f04e-4bf4-b8a5-04d7bc805334")
-	)
-	(junction
-		(at 67.31 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e225ab56-6bfc-4a5b-bbc2-4749f350ad13")
 	)
 	(no_connect
 		(at 59.69 93.98)
@@ -2364,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 69.85 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d6a65a-ec22-48a2-9d18-25991156a4d7")
-	)
-	(wire
-		(pts
 			(xy 73.66 85.09) (xy 73.66 87.63)
 		)
 		(stroke
@@ -2384,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 36.83) (xy 69.85 38.1)
+			(xy 69.85 35.56) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 26.67) (xy 31.75 26.67)
+			(xy 27.94 26.67) (xy 35.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2514,33 +2845,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 35.56) (xy 35.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a976e9d-9661-44ce-940f-6d0309d99031")
-	)
-	(wire
-		(pts
-			(xy 52.07 110.49) (xy 52.07 111.76)
+			(xy 52.07 110.49) (xy 52.07 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e93d137-2ee1-42eb-9aca-de90d934e251")
-	)
-	(wire
-		(pts
-			(xy 113.03 26.67) (xy 113.03 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f8ef71-7466-4f63-86ee-63b85b1dcb01")
 	)
 	(wire
 		(pts
@@ -2604,33 +2915,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 40.64) (xy 44.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639a9e75-678d-4c12-baa4-253c71c28327")
-	)
-	(wire
-		(pts
-			(xy 27.94 35.56) (xy 27.94 36.83)
+			(xy 27.94 35.56) (xy 27.94 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65fe5463-1e1e-4ba6-94ef-9badbd018060")
-	)
-	(wire
-		(pts
-			(xy 27.94 36.83) (xy 27.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73427ca2-9455-40c7-978c-cee4ae8fe6d8")
 	)
 	(wire
 		(pts
@@ -2644,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 44.45 40.64)
+			(xy 44.45 39.37) (xy 44.45 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 77.47) (xy 43.18 77.47)
+			(xy 40.64 77.47) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2771,16 +3062,6 @@
 			(type default)
 		)
 		(uuid "b1f72292-2d4e-4ee8-8fd8-af033dfde393")
-	)
-	(wire
-		(pts
-			(xy 43.18 77.47) (xy 44.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b460ee87-8814-4c4a-92b6-498732005476")
 	)
 	(wire
 		(pts
@@ -2804,23 +3085,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 36.83) (xy 35.56 39.37)
+			(xy 35.56 35.56) (xy 35.56 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3df889b-971d-4f52-8f5c-4cc4e7358153")
-	)
-	(wire
-		(pts
-			(xy 31.75 26.67) (xy 35.56 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d498cf75-e920-4024-9acd-4a5fc50204ec")
 	)
 	(wire
 		(pts
@@ -2834,23 +3105,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 25.4) (xy 113.03 26.67)
+			(xy 113.03 25.4) (xy 113.03 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de240e5b-6401-49b7-a141-e7e515fb527e")
-	)
-	(wire
-		(pts
-			(xy 52.07 111.76) (xy 52.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ab9c36-f715-4454-82cb-7bd92733f579")
 	)
 	(wire
 		(pts
@@ -4236,7 +4497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -4279,36 +4540,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 53.34 72.39 270)
+		(lib_name "GND_1")
+		(lib_id "New_Library:GND")
+		(at 69.85 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12cec8e1-3d96-46d8-8bc3-cd9eaea6f713")
-		(property "Reference" "#FLG011"
-			(at 55.245 72.39 0)
+		(uuid "0e450bfd-3ebe-485b-9d1c-f44a8bac158b")
+		(property "Reference" "#GND06"
+			(at 69.85 41.656 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 72.3901 90)
+		(property "Value" "GND"
+			(at 68.58 41.656 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 72.39 0)
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,8 +4576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.34 72.39 0)
+		(property "Datasheet" ""
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,8 +4585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 53.34 72.39 0)
+		(property "Description" ""
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,13 +4594,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "570220a7-a22f-45d9-a854-095481aa3969")
+		(pin ""
+			(uuid "740f901c-7eff-4e49-8dc7-b978052f000f")
 		)
 		(instances
 			(project "42_project_00"
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG011")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -4374,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 69.85 33.02 0)
 			(effects
 				(font
@@ -4417,6 +4677,73 @@
 		)
 	)
 	(symbol
+		(lib_name "VCC_2")
+		(lib_id "New_Library:VCC")
+		(at 113.03 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "17cfcb55-ef09-48e4-ba5d-8fdc80e2f1c9")
+		(property "Reference" "#VCC01"
+			(at 113.03 21.844 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 112.014 22.606 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "29d63b78-96c9-475f-9448-49f87d759113")
+		)
+		(instances
+			(project ""
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#VCC01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:Resistor")
 		(at 44.45 36.83 90)
 		(unit 1)
@@ -4443,7 +4770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -4486,74 +4813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 43.18 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d1a00f8-4695-458c-b6db-6bc7bbd347d6")
-		(property "Reference" "#FLG013"
-			(at 43.18 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.1801 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b41e350b-d713-4089-8132-772ba01a0fe9")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:J_port")
 		(at 99.06 87.63 0)
 		(unit 1)
@@ -4579,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:SidePorts"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -4652,6 +4911,140 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "New_Library:GND")
+		(at 35.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "1ff4f78c-8972-42cd-abea-3f878e20685a")
+		(property "Reference" "#GND02"
+			(at 35.56 42.926 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 42.926 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "709eb435-f046-492a-a0ae-c175714c598c")
+		)
+		(instances
+			(project ""
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_3")
+		(lib_id "New_Library:VCC")
+		(at 35.56 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "2e7a50e0-5c92-4d64-b189-fb5b3e77ee10")
+		(property "Reference" "#VCC02"
+			(at 35.56 71.374 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 34.29 72.136 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6ab79b7a-35b9-4cdd-8394-a3e6a48361ba")
+		)
+		(instances
+			(project ""
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#VCC02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:Capacitor")
 		(at 39.37 77.47 0)
 		(unit 1)
@@ -4677,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -4746,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -4813,7 +5206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:Crystal"
 			(at 73.66 90.17 0)
 			(effects
 				(font
@@ -4862,141 +5255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 67.31 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34f61abd-19f7-4069-9b84-d0b0666f19f5")
-		(property "Reference" "#FLG09"
-			(at 67.31 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 67.3101 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 67.31 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ecaa980-01fd-409a-b458-6392f3db07bd")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:GND")
-		(at 44.45 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3747c1cc-072b-4409-8e86-723b8c941158")
-		(property "Reference" "GND3"
-			(at 43.18 44.958 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 44.3229 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "36a4975b-54a7-49d8-a30e-28b3e2870013")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:Capacitor")
 		(at 27.94 34.29 270)
 		(unit 1)
@@ -5024,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 27.94 34.29 0)
 			(effects
 				(font
@@ -5092,7 +5350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -5135,6 +5393,72 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:VCC")
+		(at 53.34 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "4e0dd8cd-d009-4f49-a692-b4cfce06f97c")
+		(property "Reference" "#VCC04"
+			(at 53.34 67.564 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 52.324 68.326 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0bd0a7a8-0a68-416c-86f9-8339991860be")
+		)
+		(instances
+			(project ""
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#VCC04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:Capacitor")
 		(at 78.74 95.25 0)
 		(unit 1)
@@ -5159,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -5202,171 +5526,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 44.45 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "539cd0a4-47fa-4bb5-8bdf-1de28894a1ea")
-		(property "Reference" "#FLG06"
-			(at 46.355 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 48.26 40.6401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67de16ac-ea57-4d6c-ba10-decdc6a80162")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 113.03 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c0df957-af2b-4528-aaad-51ee9107937f")
-		(property "Reference" "#FLG04"
-			(at 111.125 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 109.22 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6956dd7-d1d6-43a6-99f2-365c3b39c7c9")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:VCC")
-		(at 35.56 73.66 0)
+		(at 142.24 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "5ef466bb-4eac-4c2b-a1d8-dfca4ff9d7e5")
-		(property "Reference" "VCC2"
-			(at 34.29 71.628 0)
+		(fields_autoplaced yes)
+		(uuid "5c5bb5c1-1470-43f1-8a20-357006e46ce9")
+		(property "Reference" "#VCC05"
+			(at 142.24 37.846 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 38.1 73.7869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
+		(property "Value" "VCC"
+			(at 144.78 35.941 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" ""
-			(at 35.56 73.66 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 73.66 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 73.66 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,47 +5581,46 @@
 			)
 		)
 		(pin ""
-			(uuid "3b06ee17-dbb8-434c-9a01-7c59860d8083")
+			(uuid "57b8710e-df72-4fce-b5d3-f468d14eebd2")
 		)
 		(instances
 			(project ""
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "VCC2")
+					(reference "#VCC05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "New_Library:GND")
-		(at 52.07 114.3 0)
+		(lib_id "New_Library:#PWR")
+		(at 134.62 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "6051e87a-8b18-4059-abcd-c926f0528a54")
-		(property "Reference" "GND4"
-			(at 50.8 116.078 0)
+		(uuid "645d7275-7fbd-436a-9c66-f52387b3dae3")
+		(property "Reference" "#PWR01"
+			(at 134.62 31.75 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 54.61 115.4429 0)
+		(property "Value" "#PWR"
+			(at 136.652 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 114.3 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 114.3 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 114.3 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,48 +5647,47 @@
 			)
 		)
 		(pin ""
-			(uuid "ccd7f3b5-af58-45c2-9be1-309d580c7c62")
+			(uuid "a5957584-36d3-479f-94a3-85286f497f9c")
 		)
 		(instances
-			(project "42_project_00"
+			(project ""
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND4")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 77.47 90)
+		(lib_name "VCC_1")
+		(lib_id "New_Library:VCC")
+		(at 44.45 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61e240de-e4ab-4cc0-9c0f-02c886ab74c3")
-		(property "Reference" "#FLG012"
-			(at 33.655 77.47 0)
+		(uuid "6d2b209f-e769-40a6-9009-bf16caac506d")
+		(property "Reference" "#VCC03"
+			(at 44.45 20.574 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 31.75 77.4699 90)
+		(property "Value" "VCC"
+			(at 43.434 21.082 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 77.47 0)
+			(at 44.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,8 +5695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.56 77.47 0)
+		(property "Datasheet" ""
+			(at 44.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,8 +5704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 77.47 0)
+		(property "Description" ""
+			(at 44.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,48 +5713,48 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "607cea98-fd5d-4369-b997-2b4053bb2f0a")
+		(pin ""
+			(uuid "4853366a-0320-407a-a859-162eebd266bb")
 		)
 		(instances
-			(project "42_project_00"
+			(project ""
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG012")
+					(reference "#VCC03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 27.94 36.83 90)
+		(lib_name "GND_2")
+		(lib_id "New_Library:GND")
+		(at 134.62 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "625ea88d-e092-4eab-9c43-dd25e905f8c0")
-		(property "Reference" "#FLG02"
-			(at 26.035 36.83 0)
+		(uuid "72602a31-8bdb-4f6b-af36-369d734b4063")
+		(property "Reference" "#GND09"
+			(at 134.62 37.846 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 24.13 36.83 90)
+		(property "Value" "GND"
+			(at 133.35 37.592 0)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 36.83 0)
+			(at 134.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,8 +5762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 27.94 36.83 0)
+		(property "Datasheet" ""
+			(at 134.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,8 +5771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 36.83 0)
+		(property "Description" ""
+			(at 134.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,81 +5780,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7f8d1f46-08e3-4918-8a77-b4161ae83f93")
+		(pin ""
+			(uuid "fb4b4601-ddc0-4e6e-b16f-c0f1e829b115")
 		)
 		(instances
 			(project "42_project_00"
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 91.44 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7365c326-1851-4158-9326-4cdf5bbde1d1")
-		(property "Reference" "#FLG05"
-			(at 89.535 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 87.63 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca78eb16-75b7-4fae-bd51-6186dbc82843")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG05")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -5701,7 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:SidePorts"
 			(at 118.11 96.52 0)
 			(effects
 				(font
@@ -5774,140 +5892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:GND")
-		(at 83.82 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "767cde5b-8393-445e-a4d0-872907e5e290")
-		(property "Reference" "GND7"
-			(at 82.55 93.218 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 86.36 92.5829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0e7c86b4-0b70-4d99-9c69-329fc7a139e1")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:VCC")
-		(at 113.03 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bb21630-cff0-4039-a2be-b8e6d6035659")
-		(property "Reference" "VCC1"
-			(at 111.76 22.352 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 115.57 24.2569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9a626832-ec35-468f-b29b-2db504be4e74")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:Capacitor")
 		(at 35.56 34.29 270)
 		(unit 1)
@@ -5935,7 +5919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -5978,16 +5962,26 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
 		(lib_id "New_Library:GND")
-		(at 35.56 40.64 0)
+		(at 67.31 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "82ce0ff5-a2d0-44b0-bb06-1bd773e08c98")
-		(property "Reference" "GND2"
-			(at 34.29 42.418 0)
+		(uuid "8259b253-ea16-426e-8541-af47d3eef7ce")
+		(property "Reference" "#GND07"
+			(at 67.31 93.726 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 93.472 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5995,18 +5989,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 38.1 41.7829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Footprint" ""
-			(at 35.56 40.64 0)
+			(at 67.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 40.64 0)
+			(at 67.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 40.64 0)
+			(at 67.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,12 +6017,212 @@
 			)
 		)
 		(pin ""
-			(uuid "831dc706-b691-4f99-8f48-b5313758ba6d")
+			(uuid "955119de-1ecf-44e3-8bf0-9904d361a008")
 		)
 		(instances
 			(project "42_project_00"
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND2")
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "New_Library:GND")
+		(at 83.82 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "960f02ba-fadd-47db-9245-e93b109f3b52")
+		(property "Reference" "#GND05"
+			(at 83.82 93.726 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 93.472 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6be5c049-bc74-475d-9409-151dc5beb998")
+		)
+		(instances
+			(project ""
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "New_Library:GND")
+		(at 44.45 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9b02804a-f068-4c48-acc9-547e88db08f6")
+		(property "Reference" "#GND03"
+			(at 44.45 45.466 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 45.466 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6e8572a4-255f-48ee-b37e-684f56e34433")
+		)
+		(instances
+			(project "42_project_00"
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:#PWR")
+		(at 142.24 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a66c7fb6-c62c-4945-8883-e2e68a853c20")
+		(property "Reference" "#PWR02"
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "#PWR"
+			(at 144.272 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a219b4a3-4255-4710-9678-a596eb4a5954")
+		)
+		(instances
+			(project "42_project_00"
+				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6070,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:Omron_B3U-1000P"
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -6113,209 +6297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 83.82 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b64273d5-ad40-4f0e-a83e-da33b82ed376")
-		(property "Reference" "#FLG010"
-			(at 83.82 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 83.8201 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9731c126-7006-49bc-99c4-965bdf35b930")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:GND")
-		(at 91.44 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b82ae6cf-62a0-4c1d-9e89-05d1de3cf149")
-		(property "Reference" "GND8"
-			(at 90.17 41.148 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 93.98 40.5129 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2e511d68-25f8-4515-adea-81ceec1040c4")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 52.07 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba7e66ac-e3f7-4e74-9007-8f9b6d74daab")
-		(property "Reference" "#FLG08"
-			(at 50.165 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 48.26 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8383bfb2-6218-44e6-8863-b087fd3e5f88")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:ATmega328p")
 		(at 55.88 93.98 0)
 		(unit 1)
@@ -6343,7 +6324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:ATmega328p-AU"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -6492,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:FTDI"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -6547,73 +6528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:VCC")
-		(at 44.45 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c15d645b-64c0-4263-9eb7-c73f5e1c1192")
-		(property "Reference" "VCC3"
-			(at 43.18 21.082 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 46.99 22.9869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "76bd90fb-36a2-4e19-969f-64d02eec74c0")
-		)
-		(instances
-			(project ""
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "VCC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:Capacitor")
 		(at 96.52 35.56 0)
 		(unit 1)
@@ -6639,7 +6553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -6682,74 +6596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 69.85 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c710b03a-521a-4ffd-bad0-9d36166fd1f5")
-		(property "Reference" "#FLG07"
-			(at 71.755 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 36.8301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af21d9f0-fc36-4247-914a-8310618720f3")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:Resistor")
 		(at 113.03 30.48 90)
 		(unit 1)
@@ -6776,7 +6622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootLib:0603_CA"
 			(at 113.03 30.48 0)
 			(effects
 				(font
@@ -6819,34 +6665,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 31.75 26.67 0)
+		(lib_name "GND_1")
+		(lib_id "New_Library:GND")
+		(at 91.44 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb2e3b02-1057-40f1-afce-4e8e68714b3d")
-		(property "Reference" "#FLG01"
-			(at 31.75 24.765 0)
+		(uuid "dafe0fdf-5c0f-4da5-8d0c-c264df7e2120")
+		(property "Reference" "#GND08"
+			(at 91.44 41.656 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 31.75 21.59 0)
+		(property "Value" "GND"
+			(at 90.17 41.656 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 26.67 0)
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,8 +6701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 31.75 26.67 0)
+		(property "Datasheet" ""
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,8 +6710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 26.67 0)
+		(property "Description" ""
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,13 +6719,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "93eccac0-f2fe-4111-88f6-57088f6441aa")
+		(pin ""
+			(uuid "c6a3a302-7bb4-4320-9530-faa24d53bc40")
 		)
 		(instances
-			(project ""
+			(project "42_project_00"
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG01")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -6889,27 +6736,26 @@
 		(at 27.94 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "d068df5e-d5b2-421f-b5b4-d8614fd36ba0")
-		(property "Reference" "GND1"
-			(at 26.67 42.418 0)
+		(uuid "dbeeb142-0fa3-42b5-ad5d-656c7eea36ee")
+		(property "Reference" "#GND01"
+			(at 27.94 42.926 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 42.926 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 30.48 41.7829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6940,162 +6786,38 @@
 			)
 		)
 		(pin ""
-			(uuid "003a3a8b-4297-4185-8038-dddd5d572ddf")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:VCC")
-		(at 53.34 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "daaec99c-0b42-4f2f-9371-3f587f1c5e49")
-		(property "Reference" "VCC4"
-			(at 52.07 67.818 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 55.88 69.9769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b50c7b39-9677-478c-88f8-d84247314f20")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "VCC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:GND")
-		(at 67.31 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e47b23d5-bfc5-47c8-ba09-b65272797429")
-		(property "Reference" "GND5"
-			(at 66.04 93.218 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 69.85 92.5829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "32f6d4e5-18b5-4f7a-ace7-5aed16252d03")
+			(uuid "8bfacca0-a1d7-4176-963a-b62a7270652a")
 		)
 		(instances
 			(project ""
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND5")
+					(reference "#GND01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
 		(lib_id "New_Library:GND")
-		(at 69.85 39.37 0)
+		(at 52.07 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
-		(uuid "f2e4fb9c-78dd-468e-87ff-94ec2c9ca3c8")
-		(property "Reference" "GND6"
-			(at 68.58 41.148 0)
+		(uuid "ee342d52-cddd-4dbc-98d5-fd91e6a6e9bd")
+		(property "Reference" "#GND04"
+			(at 52.07 116.586 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 116.332 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7103,18 +6825,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 72.39 40.5129 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Footprint" ""
-			(at 69.85 39.37 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +6835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 39.37 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +6844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 39.37 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,79 +6853,12 @@
 			)
 		)
 		(pin ""
-			(uuid "2f87662c-26fb-4543-8fc8-bc87b5d13940")
+			(uuid "5824e5b0-f9e9-4dd3-b2e3-021819a586e5")
 		)
 		(instances
 			(project "42_project_00"
 				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "GND6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f360fba5-39d9-4450-9264-384a481cc7fa")
-		(property "Reference" "#FLG03"
-			(at 33.655 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 31.75 36.83 90)
-			(effects
-				(font
-					(size 0.001 0.001)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4212baa2-57b1-4d71-812a-07d52e8cf273")
-		)
-		(instances
-			(project "42_project_00"
-				(path "/977b9c8e-5e7f-463d-98c7-b6b9f8ae9310"
-					(reference "#FLG03")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
