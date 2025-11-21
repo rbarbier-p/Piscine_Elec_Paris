@@ -175,7 +175,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:#PWR"
+		(symbol "MySymbolLib:#PWR"
 			(power)
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -260,7 +260,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:4PIN_Crystal"
+		(symbol "MySymbolLib:4PIN_Crystal"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -444,7 +444,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:ATmega328p"
+		(symbol "MySymbolLib:ATmega328p"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1030,7 +1030,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:Capacitor"
+		(symbol "MySymbolLib:Capacitor"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1143,7 +1143,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:FTDI"
+		(symbol "MySymbolLib:FTDI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1381,7 +1381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:GND"
+		(symbol "MySymbolLib:GND"
 			(power)
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -1466,7 +1466,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:J_port"
+		(symbol "MySymbolLib:J_port"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1879,7 +1879,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:LED"
+		(symbol "MySymbolLib:LED"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2003,7 +2003,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:PushButton"
+		(symbol "MySymbolLib:PushButton"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2126,7 +2126,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:Resistor"
+		(symbol "MySymbolLib:Resistor"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2226,7 +2226,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:VCC"
+		(symbol "MySymbolLib:VCC"
 			(power)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -4471,7 +4471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Resistor")
+		(lib_id "MySymbolLib:Resistor")
 		(at 69.85 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4541,7 +4541,7 @@
 	)
 	(symbol
 		(lib_name "GND_1")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 69.85 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4607,7 +4607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:LED")
+		(lib_id "MySymbolLib:LED")
 		(at 69.85 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4678,7 +4678,7 @@
 	)
 	(symbol
 		(lib_name "VCC_2")
-		(lib_id "New_Library:VCC")
+		(lib_id "MySymbolLib:VCC")
 		(at 113.03 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4744,7 +4744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Resistor")
+		(lib_id "MySymbolLib:Resistor")
 		(at 44.45 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4813,7 +4813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:J_port")
+		(lib_id "MySymbolLib:J_port")
 		(at 99.06 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4912,7 +4912,7 @@
 	)
 	(symbol
 		(lib_name "GND_1")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 35.56 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4979,7 +4979,7 @@
 	)
 	(symbol
 		(lib_name "VCC_3")
-		(lib_id "New_Library:VCC")
+		(lib_id "MySymbolLib:VCC")
 		(at 35.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5045,7 +5045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 39.37 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5113,7 +5113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:LED")
+		(lib_id "MySymbolLib:LED")
 		(at 44.45 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5182,7 +5182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:4PIN_Crystal")
+		(lib_id "MySymbolLib:4PIN_Crystal")
 		(at 73.66 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5255,7 +5255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 27.94 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5325,7 +5325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 78.74 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5393,7 +5393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:VCC")
+		(lib_id "MySymbolLib:VCC")
 		(at 53.34 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5459,7 +5459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 78.74 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5526,7 +5526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:VCC")
+		(lib_id "MySymbolLib:VCC")
 		(at 142.24 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5593,7 +5593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:#PWR")
+		(lib_id "MySymbolLib:#PWR")
 		(at 134.62 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5660,7 +5660,7 @@
 	)
 	(symbol
 		(lib_name "VCC_1")
-		(lib_id "New_Library:VCC")
+		(lib_id "MySymbolLib:VCC")
 		(at 44.45 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5727,7 +5727,7 @@
 	)
 	(symbol
 		(lib_name "GND_2")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 134.62 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5793,7 +5793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:J_port")
+		(lib_id "MySymbolLib:J_port")
 		(at 118.11 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5892,7 +5892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 35.56 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5963,7 +5963,7 @@
 	)
 	(symbol
 		(lib_name "GND_2")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 67.31 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6030,7 +6030,7 @@
 	)
 	(symbol
 		(lib_name "GND_2")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 83.82 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6097,7 +6097,7 @@
 	)
 	(symbol
 		(lib_name "GND_1")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 44.45 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6163,7 +6163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:#PWR")
+		(lib_id "MySymbolLib:#PWR")
 		(at 142.24 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6229,7 +6229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:PushButton")
+		(lib_id "MySymbolLib:PushButton")
 		(at 105.41 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6297,7 +6297,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:ATmega328p")
+		(lib_id "MySymbolLib:ATmega328p")
 		(at 55.88 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6448,7 +6448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:FTDI")
+		(lib_id "MySymbolLib:FTDI")
 		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6528,7 +6528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Capacitor")
+		(lib_id "MySymbolLib:Capacitor")
 		(at 96.52 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6596,7 +6596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Resistor")
+		(lib_id "MySymbolLib:Resistor")
 		(at 113.03 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6666,7 +6666,7 @@
 	)
 	(symbol
 		(lib_name "GND_1")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 91.44 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6732,7 +6732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 27.94 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6799,7 +6799,7 @@
 	)
 	(symbol
 		(lib_name "GND_2")
-		(lib_id "New_Library:GND")
+		(lib_id "MySymbolLib:GND")
 		(at 52.07 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
