@@ -4497,7 +4497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_R"
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -4634,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_D"
 			(at 69.85 33.02 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_R"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -5070,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -5139,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_D"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 27.94 34.29 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -5919,7 +5919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_C"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -6622,7 +6622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyFootLib:0603_CA"
+		(property "Footprint" "MyFootLib:0603_CA_R"
 			(at 113.03 30.48 0)
 			(effects
 				(font
