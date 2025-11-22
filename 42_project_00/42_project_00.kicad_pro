@@ -465,7 +465,8 @@
       "Custom_logos"
     ],
     "pinned_symbol_libs": [
-      "New_Library"
+      "New_Library",
+      "MySymbolLib"
     ]
   },
   "meta": {

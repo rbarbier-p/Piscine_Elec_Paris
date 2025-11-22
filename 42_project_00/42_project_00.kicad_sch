@@ -175,6 +175,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(polyline
+					(pts
+						(xy 0.635 -1.397) (xy 1.905 -2.667) (xy 1.27 -2.667) (xy 1.905 -2.667) (xy 1.905 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.667) (xy 0 -2.667) (xy 0.635 -2.667) (xy 0.635 -2.032) (xy 0.635 -2.667) (xy -0.635 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MySymbolLib:#PWR"
 			(power)
 			(exclude_from_sim yes)
@@ -1929,7 +2052,7 @@
 			(symbol "LED_1_1"
 				(polyline
 					(pts
-						(xy -0.381 -1.397) (xy -1.651 -2.667) (xy -1.651 -2.032) (xy -1.651 -2.667) (xy -1.016 -2.667)
+						(xy 0.635 -1.397) (xy 1.905 -2.667) (xy 1.27 -2.667) (xy 1.905 -2.667) (xy 1.905 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -1941,8 +2064,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.381 -2.667) (xy -0.381 -2.032) (xy -0.381 -2.667) (xy 0.254 -2.667) (xy -0.381 -2.667)
-						(xy 0.889 -1.397)
+						(xy 0.635 -2.667) (xy 0 -2.667) (xy 0.635 -2.667) (xy 0.635 -2.032) (xy 0.635 -2.667) (xy -0.635 -1.397)
 					)
 					(stroke
 						(width 0)
@@ -5113,6 +5235,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "MySymbolLib:LED")
 		(at 44.45 30.48 270)
 		(unit 1)
